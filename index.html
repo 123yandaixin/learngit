@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>yandaixin</title>     
+            <style type="text/css">
+                .class1{
+                    background-image: url("background.jpeg");
+                    background-size: cover;           
+                }
+                .biaoti{
+                   font-family: "Adobe 宋体 Std L";
+                   font-size: 50px;
+                   font-weight: 900;
+                   color:blue;
+                   text-align: center;
+                   padding-top: 200px;
+                   text-shadow: 1px 1px 1px red;
+                   opacity: 0;
+                }
+                html:hover .biaoti{
+                  animation-name: welcome;
+                  animation-duration: 2s;
+                  animation-delay: 0.1s;
+                  animation-fill-mode:both;
+                }
+                @keyframes welcome{
+                    to{
+                      font-size: xx-large;
+                      padding-top: 0px;
+                      opacity: 1;
+                    }
+                }
+                   
+                  
+            </style>
+            <script>
+               
+            </script>
+    </head>
+    <body class="class1">
+        <div>
+        <p class="biaoti">逐日工作室欢迎你！</p>
+        </div>
+        <img src="sunlogo.jpg" class="logo" width="100px" height="100px">
+    </body>
+</html> 
